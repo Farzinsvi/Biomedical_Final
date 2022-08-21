@@ -1,3 +1,18 @@
+#Introduction
+
+The aim of this project was to add an additional feature in a video-based markerless
+Body-Machine Interface (BoMI) which was developed by the researchers at the University of
+Genoa, Italy. The notion behind the entire project was to use the Body-Machine Interface
+framework to allow individuals with motor disabilities to regain their functional independence to
+some extent.
+Body-Machine interfaces in general convert user’s residual body movements into appropriate
+commands which they can use to control external devices like upper, lower body prosthetics or a
+wheelchair. The originally developed BM interface that we are using in this project detects
+movement of various user’s joints such as shoulders, nose, fingers, and eyes. For proof of
+concept, the interface maps body movements into commands to allow the user to control the real
+computer cursor in a 2D space. In an attempt to understand this interface better and for the
+purpose of gaining hands-on experience, an additional feature of “Mouse control” was added for
+the user to control the real mouse cursor using the selected joints.
 # Abstract
 
 

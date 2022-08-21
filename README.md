@@ -16,7 +16,29 @@ computer cursor in a 2D space. In an attempt to understand this interface better
 purpose of gaining hands-on experience, an additional feature of “Mouse control” was added for
 the user to control the real mouse cursor using the selected joints.
 
+# Results and Discussion
 
+
+The average time to complete the practice session with the nose joint was around 50 minutes. On
+the other hand, the movement of the real mouse cursor using the selected joint presents a proof of
+concept. However, there is a need for improvements in terms of stability parameters which will
+enable the cursor to move in a smooth manner.
+This experiment was conducted twice by two different participants and on two different laptops.
+The technical specs of both laptops are as follows:
+
+
+1. Intel Core i5-6300U @ 2.40GHz with 8GB RAM
+2. 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (8 CPUs), ~2.4GHz and 8 GB RAM
+
+
+One of the future works with this interface could be to assess the feasibility of a user controlling
+a mobile robot, robotics manipulator or even a wheelchair in a Gazebo simulation through their
+joint movement. In addition, the real mouse cursor can also be controlled using the IMU sensor
+in smartphones as a proof of concept.
+The eye-tracking capability of Hololens could also be utilized for the purpose of achieving a
+finer cursor movement. In this case, the Hololens displays the interface in augmented reality and
+the user controls the pointer using their eyes. This could potentially lead to an efficient AR-based
+BoMI interface.
 
 
 # UBUNTU installation steps:
@@ -234,3 +256,14 @@ The reaching task is composed of many steps (almost 300, you will take ~45 minut
 
 ![BoMI_8](https://user-images.githubusercontent.com/75327840/142374722-5f860b01-58fd-4293-882d-bfee32afd507.png)
 Figure 8. Start the reaching task.
+
+
+# References
+
+
+[1] 25th International Conference on Pattern Recognition. 2021. A Video-Based MarkerLess Body
+Machine Interface: A Pilot Study. Milan, Italy: Springer, pp.233-240.
+
+
+[2] GitHub. 2021. MoroMatteo/markerlessBoMI_FaMa. [online] Available at:
+<https://github.com/MoroMatteo/markerlessBoMI_FaMa> [Accessed 2 January 2022].

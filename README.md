@@ -16,7 +16,6 @@ computer cursor in a 2D space. In an attempt to understand this interface better
 purpose of gaining hands-on experience, an additional feature of “Mouse control” was added for
 the user to control the real mouse cursor using the selected joints.
 
-# Abstract
 
 
 
